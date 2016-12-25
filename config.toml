@@ -1,3 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
+baseurl = "http://manong.blog/"
+title = "Ma Nong"
 languageCode = "en-us"
+theme = "nofancy"
+pygmentsStyle = "native"
+newContentEditor = "vim"
