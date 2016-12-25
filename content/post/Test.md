@@ -7,7 +7,7 @@ title = "Test"
 
 +++
 
-This is a test
+This is a BAM
 
 {{< highlight python >}}
 def hello_world():

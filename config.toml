@@ -1,4 +1,4 @@
-baseurl = "http://manong.blog/"
+baseurl = "localhost"
 title = "Ma Nong"
 languageCode = "en-us"
 theme = "nofancy"
