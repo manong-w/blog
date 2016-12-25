@@ -10,12 +10,11 @@ html {
 }
 
 body {
-	background-color: rgb(249,249,249);
-	color: #484848;
+	background-color: white;
+	color: black;
 }
 
 .nav-menu {
-	/*box-shadow: 0 1px 1px rgba(0,0,0, 0.10);*/
 	border-bottom: 1px solid #e3e3e3;
 }
 
@@ -80,7 +79,7 @@ body {
 	font-family: verdana,arial,helvetica,sans-serif;
 	color:#888;
 	font-size:x-small;
-	margin-bottom:0;
+	margin-bottom:10px;
 }
 
 .footnote a {
