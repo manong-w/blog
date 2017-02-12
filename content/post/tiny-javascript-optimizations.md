@@ -86,12 +86,13 @@ const lookupTable = {
 }
 
 function hashing(action) {
-  if (lookupTable[action.type]) {
-    return lookupTable[action.type](action.data);
+  const handler = lookupTable[action.type];
+  if (handler) {
+    return handler(action.data);
   }
 }
 ```
 
-One comparison and two lookups.
+One comparison and one lookup.
 
 Of course this applies to iterating over any iterable (arrays, strings, etc), but `switch` is the less obvious case. 
