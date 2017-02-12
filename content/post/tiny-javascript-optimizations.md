@@ -5,6 +5,8 @@ date = "2017-02-12T09:02:20-08:00"
 
 +++
 
+Preface: Optimizations in client-side Javascript is usually not worth sacrificing readability for. If your app is slow, consider whether you can either serve API requests better, do less with the DOM, minimize writing to local storage, or make any other reducuction of side effects. There is almost never enough data held by the client for there to be a need make working synchronous code run faster. I think the following make improvements in readability as well, so if you have both, why not... 
+
 ### Recursive tail calls
 
 In the example below, a new stack has to be created each time the function is ran (to preserve the context for the addition). So, passing in `x:5000` creates 5000 stacks.
