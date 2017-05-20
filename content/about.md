@@ -4,4 +4,4 @@ title = "About"
 
 +++
 
-Ma Nong (码农) means programmer in Chinese. Literal translation is code farmer, which I found funny enough to adopt as a name for this blog.
+Ma Nong (码农) is slang for programmer in Chinese. Literal translation is code farmer, which I found funny enough to adopt as a name for this blog.
